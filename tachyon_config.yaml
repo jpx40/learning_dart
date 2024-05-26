@@ -1,0 +1,8 @@
+file_generation_paths: # which files/paths to include for build
+  - "./*"
+  # - "another/one"
+
+generated_file_line_length: 80 # default line length
+
+plugins:
+  - data_class_plugin # register data_class_plugin
